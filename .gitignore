@@ -1,0 +1,12 @@
+# KiCad local history
+PCB/.history/
+
+# KiCad temporary / backup files
+*.lck
+*-backups/
+_autosave-*
+*.bak
+*-bak
+*~
+fp-info-cache
+\#auto_saved_files#
