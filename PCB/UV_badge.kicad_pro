@@ -661,13 +661,25 @@
         "uuid": "510c3167-274e-48e8-bc0f-ce517acc7f9d"
       }
     ],
-    "used_designators": "RV1-2,JP1,R1-3,BT1,#PWR1-21,L1,SW1,NCP1,U1-3,C1-4,D1-12",
+    "used_designators": "D1-12,C1-4,U1-3,NCP1,SW1,L1,#PWR1-21,BT1,R1-18,JP1,RV1-3",
     "variants": []
   },
   "sheets": [
     [
       "510c3167-274e-48e8-bc0f-ce517acc7f9d",
       "Root"
+    ],
+    [
+      "31fe11dc-c780-463d-b2c9-9ca8c0ac4f4e",
+      "power_supply"
+    ],
+    [
+      "ab3e44bd-2a8b-4d5e-afa5-e8b03dc741f3",
+      "uv_sensor_amp"
+    ],
+    [
+      "c13bce2c-c64f-4126-ad9a-b7d870433f01",
+      "led_controller"
     ]
   ],
   "text_variables": {},
