@@ -3902,7 +3902,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 			(at 64.77 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -3924,7 +3924,7 @@
 				)
 			)
 		)
-		(property "Description" "Trim-potentiometer"
+		(property "Description" "https://de.aliexpress.com/item/1005011873525568.html?spm=a2g0o.productlist.main.11.3fd718e5mXjZiQ&algo_pvid=7613c848-f431-45d5-941b-d2d154c92b7a&algo_exp_id=7613c848-f431-45d5-941b-d2d154c92b7a-10&pdp_ext_f=%7B%22order%22%3A%2243%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%216.49%213.05%21%21%2147.55%2122.35%21%400b5e1a3817922524457713019e0d45%2112000056846451159%21sea%21DE%216126981087%21X%211%210%21n_tag%3A-29919%3Bd%3A55183b53%3Bm03_new_user%3A-29895&curPageLogUid=OkjEOPcjFXqP&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005011873525568%7C_p_origin_prod%3A"
 			(at 64.77 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -4146,7 +4146,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 			(at 64.77 50.8 0)
 			(hide yes)
 			(show_name no)
