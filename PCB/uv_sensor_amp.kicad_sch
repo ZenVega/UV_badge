@@ -200,6 +200,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -985,6 +1108,12 @@
 		(color 0 0 0 0)
 		(uuid "c79a3374-93ee-470a-bcb9-e4592d70d981")
 	)
+	(junction
+		(at 113.03 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f65cd3c9-ba0a-4cd9-a4f7-513a8dd6f8cd")
+	)
 	(wire
 		(pts
 			(xy 113.03 78.74) (xy 116.84 78.74)
@@ -1037,6 +1166,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 92.71) (xy 113.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c01208b-95c6-4599-943d-00c6719ca3fc")
+	)
+	(wire
+		(pts
 			(xy 106.68 73.66) (xy 106.68 77.47)
 		)
 		(stroke
@@ -1077,16 +1216,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 96.52) (xy 113.03 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c3c887d-c09a-45d1-8907-c936be7bbb80")
-	)
-	(wire
-		(pts
 			(xy 135.89 76.2) (xy 135.89 82.55)
 		)
 		(stroke
@@ -1117,7 +1246,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 92.71) (xy 135.89 92.71)
+			(xy 129.54 92.71) (xy 135.89 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1127,13 +1256,33 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 82.55) (xy 132.08 82.55)
+			(xy 135.89 82.55) (xy 129.54 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa35d1c1-2a4c-4606-b07c-e8b8ac16a39d")
+	)
+	(wire
+		(pts
+			(xy 113.03 78.74) (xy 113.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5dd4a7c-cb62-432c-8945-6acd419d76f8")
+	)
+	(wire
+		(pts
+			(xy 113.03 92.71) (xy 113.03 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd7bc5a3-2126-402a-a8bc-a7ba84c3f184")
 	)
 	(wire
 		(pts
@@ -1147,7 +1296,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 82.55) (xy 132.08 85.09)
+			(xy 129.54 82.55) (xy 129.54 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1187,6 +1336,85 @@
 		(uuid "62e4eaf3-0a30-4ead-b90f-f90e7ae02b62")
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 99.06 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19b91997-7bc5-44f3-9692-87283cde76ac")
+		(property "Reference" "TP2"
+			(at 101.6 88.1379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 101.6 90.6779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 104.14 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 99.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "866b1de4-7029-4668-8c98-d65eb0044d5d")
+		)
+		(instances
+			(project "UV_badge"
+				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/ab3e44bd-2a8b-4d5e-afa5-e8b03dc741f3"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Photo_Filled")
 		(at 113.03 102.87 270)
 		(unit 1)
@@ -1208,8 +1436,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Photo_Filled"
-			(at 95.504 102.362 90)
+		(property "Value" "GUVA_S12"
+			(at 100.584 102.108 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1503,7 +1731,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 88.9 180)
+		(at 129.54 88.9 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1514,7 +1742,7 @@
 		(fields_autoplaced yes)
 		(uuid "db8095ed-14b4-43f4-b305-8b414f3e1844")
 		(property "Reference" "R1"
-			(at 134.62 87.6299 0)
+			(at 132.08 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1525,7 +1753,7 @@
 			)
 		)
 		(property "Value" "6.8M"
-			(at 134.62 90.1699 0)
+			(at 132.08 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1535,8 +1763,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 133.858 88.9 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 131.318 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1547,7 +1775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 88.9 0)
+			(at 129.54 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1558,7 +1786,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 88.9 0)
+			(at 129.54 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

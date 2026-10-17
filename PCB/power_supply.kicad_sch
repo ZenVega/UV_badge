@@ -1680,9 +1680,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Ask Jule, what battery cell holder???\n"
+		(exclude_from_sim no)
+		(at 77.47 70.358 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3291b760-1146-4c20-870c-5f46eafdeea4")
+	)
 	(text "Power Supply"
 		(exclude_from_sim no)
-		(at 156.718 59.182 0)
+		(at 162.56 55.372 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1992,16 +2002,6 @@
 		)
 		(uuid "fdc49cd3-87b4-498c-9af6-fabf832cdd9c")
 	)
-	(label "5v"
-		(at 196.85 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af30fc52-b97c-46d3-84bc-99594739b57a")
-	)
 	(symbol
 		(lib_id "power:GND")
 		(at 172.72 88.9 0)
@@ -2112,7 +2112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 158.75 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2135,6 +2135,17 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 158.75 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "link" "https://www.tme.eu/de/details/ss14-dc/schottkydioden-smd/dc-components/ss14/"
 			(at 158.75 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2544,7 +2555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_APV_APH0650"
+		(property "Footprint" "Inductor_SMD:L_Bourns-SRN6028"
 			(at 167.64 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2568,6 +2579,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 167.64 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "link" "https://www.tme.eu/de/details/djnr6028-470-s/drosseln/ferrocore/"
+			(at 167.64 68.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2634,7 +2656,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://de.aliexpress.com/item/1005009130833374.html?spm=a2g0o.order_list.order_list_main.5.39695c5fGREGny&gatewayAdapt=glo2deu"
 			(at 167.64 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2868,7 +2890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 133.35 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2890,7 +2912,18 @@
 				)
 			)
 		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
+		(property "Description" "https://www.tme.eu/de/details/tact4203-319160-r/mikroschalter-tact/connfly/ds1042-03-319kkr16010/"
+			(at 133.35 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
 			(at 133.35 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2956,7 +2989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
 			(at 117.8052 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2978,7 +3011,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "https://www.tme.eu/de/details/vs0j221me054000ce0/elektrolytische-kondensatoren-smd/chang/"
 			(at 116.84 77.47 0)
 			(hide yes)
 			(show_name no)
