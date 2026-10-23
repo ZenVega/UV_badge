@@ -1407,6 +1407,16 @@
 		)
 		(uuid "11746dd0-5fa9-4411-be90-5bea213e9a76")
 	)
+	(text "LEDs are not selected yet. When done, check the protection resistor values again"
+		(exclude_from_sim no)
+		(at 117.856 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96e5d8cc-4f18-4a98-819d-63720946e9bd")
+	)
 	(junction
 		(at 77.47 102.87)
 		(diameter 0)

@@ -5,9 +5,9 @@
 	(uuid "510c3167-274e-48e8-bc0f-ce517acc7f9d")
 	(paper "A4")
 	(lib_symbols)
-	(text "TODO:\n- Check the footprints for Caps and Resistors, including variable\n- Find footprint for cell\n- Export used footprints to repo"
+	(text "TODO:\n- Find footprint for cell\n- Pick LEDs and footprints\n- Export used footprints to repo"
 		(exclude_from_sim no)
-		(at 187.452 143.51 0)
+		(at 155.702 137.922 0)
 		(effects
 			(font
 				(size 1.778 1.778)

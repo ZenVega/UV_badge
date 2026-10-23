@@ -1062,16 +1062,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TRIPLE CHECK THE REAL AMPS PINOUT 2 VERSIONS"
-		(exclude_from_sim no)
-		(at 122.682 66.548 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6c993263-946c-4b0b-9622-4bd186bac02f")
-	)
 	(text "UV Sensor + Amplification\n"
 		(exclude_from_sim no)
 		(at 117.602 54.102 0)
