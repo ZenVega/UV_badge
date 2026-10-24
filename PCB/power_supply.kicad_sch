@@ -905,7 +905,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_MEC_5G"
+		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
 			)
@@ -929,7 +929,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_MEC_5G"
+			(property "Value" "SW_Push"
 				(at 0 -1.524 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -950,7 +950,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5G.pdf"
+			(property "Datasheet" ""
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -961,7 +961,7 @@
 					)
 				)
 			)
-			(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -983,18 +983,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SW*MEC*5G*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_MEC_5G_0_1"
+			(symbol "SW_Push_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -1044,7 +1033,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1062,28 +1051,7 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_MEC_5G_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "A"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1091,25 +1059,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1127,7 +1076,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "NCP1"
-				(at 0 8.89 0)
+				(at 0.254 1.778 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1146,8 +1095,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-				(at 0 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+				(at -10.414 8.382 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1157,7 +1106,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://de.aliexpress.com/item/1005009130833374.html?spm=a2g0o.order_list.order_list_main.5.39695c5fGREGny&gatewayAdapt=glo2deu"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1193,42 +1142,6 @@
 				)
 			)
 			(symbol "NCP1402_1_1"
-				(pin no_connect line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -11.43 3.81 0)
 					(length 2.54)
@@ -1258,6 +1171,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1713,6 +1662,12 @@
 		(uuid "261cda22-6224-4cba-ad28-5c159c155bb4")
 	)
 	(junction
+		(at 142.24 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "329d62e0-ef58-4378-a094-518557a31565")
+	)
+	(junction
 		(at 148.59 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1737,10 +1692,36 @@
 		(uuid "864fe49f-27d2-4104-91c9-e1e9079e7ffa")
 	)
 	(junction
+		(at 124.46 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7589b50-f042-4c34-a10d-2f25f4e8e78d")
+	)
+	(junction
 		(at 140.97 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e753e9a3-0f34-4f35-8f22-ab586122bb16")
+	)
+	(wire
+		(pts
+			(xy 128.27 53.34) (xy 124.46 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0318fa8c-7211-44bf-8d67-c73da761621e")
+	)
+	(wire
+		(pts
+			(xy 142.24 53.34) (xy 142.24 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0458d0d9-f9b6-4a2d-aeae-a7d570fad3e2")
 	)
 	(wire
 		(pts
@@ -1754,13 +1735,23 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 95.25) (xy 148.59 83.82)
+			(xy 148.59 100.33) (xy 148.59 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "098b26db-712b-4e6f-a0bb-9d88e6a06579")
+	)
+	(wire
+		(pts
+			(xy 124.46 68.58) (xy 116.84 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f512710-f72b-453f-8a0a-c2221137bd80")
 	)
 	(wire
 		(pts
@@ -1791,6 +1782,16 @@
 			(type default)
 		)
 		(uuid "18c7f9a9-6967-49bb-84f3-b2b19cf6cc86")
+	)
+	(wire
+		(pts
+			(xy 124.46 53.34) (xy 124.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1f33d2-2d3d-4b75-a86f-c0a107d91f5f")
 	)
 	(wire
 		(pts
@@ -1854,7 +1855,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 77.47) (xy 182.88 95.25)
+			(xy 182.88 77.47) (xy 182.88 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1914,7 +1915,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 68.58) (xy 163.83 68.58)
+			(xy 138.43 68.58) (xy 142.24 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1934,7 +1935,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 95.25) (xy 148.59 95.25)
+			(xy 154.94 100.33) (xy 148.59 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1974,7 +1975,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 95.25) (xy 182.88 95.25)
+			(xy 162.56 100.33) (xy 182.88 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1984,13 +1985,23 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 68.58) (xy 116.84 68.58)
+			(xy 128.27 68.58) (xy 124.46 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dec05de0-239c-40d3-9235-5b7e1fd4e3ae")
+	)
+	(wire
+		(pts
+			(xy 142.24 68.58) (xy 163.83 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e48960-a637-4b17-92ef-bd749261fb56")
 	)
 	(wire
 		(pts
@@ -2001,6 +2012,16 @@
 			(type default)
 		)
 		(uuid "ed96cfcb-cd6e-4475-b5ef-7a95e7fc7283")
+	)
+	(wire
+		(pts
+			(xy 138.43 53.34) (xy 142.24 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc23e815-ddc7-4a4f-bc73-5170ab0c69e6")
 	)
 	(wire
 		(pts
@@ -2092,7 +2113,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 158.75 95.25 0)
+		(at 158.75 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2103,7 +2124,7 @@
 		(fields_autoplaced yes)
 		(uuid "2147f3d4-ed05-4b46-88fb-54a6e639aeba")
 		(property "Reference" "D12"
-			(at 158.4325 88.9 0)
+			(at 158.4325 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2113,7 +2134,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 158.4325 91.44 0)
+			(at 158.4325 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2123,7 +2144,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 158.75 95.25 0)
+			(at 158.75 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2134,7 +2155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 95.25 0)
+			(at 158.75 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2145,7 +2166,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 158.75 95.25 0)
+			(at 158.75 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2156,7 +2177,7 @@
 			)
 		)
 		(property "link" "https://www.tme.eu/de/details/ss14-dc/schottkydioden-smd/dc-components/ss14/"
-			(at 158.75 95.25 0)
+			(at 158.75 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2290,6 +2311,86 @@
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/31fe11dc-c780-463d-b2c9-9ca8c0ac4f4e"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 133.35 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37179a9d-7703-424d-88af-037f5b87bb28")
+		(property "Reference" "SW4"
+			(at 133.35 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 133.35 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+			(at 133.35 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5G.pdf"
+			(at 133.35 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 133.35 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "877196a3-1894-46db-933b-6f973f59c98b")
+		)
+		(pin "2"
+			(uuid "dd06635b-27ca-404f-bc6f-3b1d7c4f0dc7")
+		)
+		(instances
+			(project "UV_badge"
+				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/31fe11dc-c780-463d-b2c9-9ca8c0ac4f4e"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -2625,6 +2726,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 133.35 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3164bb1-11c4-4068-85bb-1dd0a703a8ed")
+		(property "Reference" "SW3"
+			(at 133.35 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 133.35 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+			(at 133.35 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5G.pdf"
+			(at 133.35 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 133.35 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4dbdaa8-f2c8-4fdb-9587-02939b940f54")
+		)
+		(pin "2"
+			(uuid "80d9d607-3ee2-407d-aa1b-ed8cd231a4fd")
+		)
+		(instances
+			(project "UV_badge"
+				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/31fe11dc-c780-463d-b2c9-9ca8c0ac4f4e"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "custom:NCP1402")
 		(at 167.64 81.28 0)
 		(unit 1)
@@ -2688,10 +2869,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "3"
 			(uuid "f579a3cd-2d36-4c66-9fe1-6fc01215ae79")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "293b322d-9a23-435a-8662-ed9baca8c106")
 		)
 		(pin "1"
@@ -2863,103 +3044,6 @@
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/31fe11dc-c780-463d-b2c9-9ca8c0ac4f4e"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 133.35 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eaf59bf5-9e74-48ac-876b-86b3df606d85")
-		(property "Reference" "SW1"
-			(at 133.35 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 133.35 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
-			(at 133.35 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5G.pdf"
-			(at 133.35 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "https://www.tme.eu/de/details/tact4203-319160-r/mikroschalter-tact/connfly/ds1042-03-319kkr16010/"
-			(at 133.35 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 133.35 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "561ea778-31ef-4bbe-9cc8-676c9d9e8f0e")
-		)
-		(pin "1"
-			(uuid "bbc361ac-73bf-4321-9071-35ae728f6beb")
-		)
-		(pin "4"
-			(uuid "15e933d8-bf75-4b32-9dec-1cab4ccad33f")
-		)
-		(pin "3"
-			(uuid "cd1db0c6-280c-4fcf-8503-beacef10d5cc")
-		)
-		(instances
-			(project "UV_badge"
-				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/31fe11dc-c780-463d-b2c9-9ca8c0ac4f4e"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
