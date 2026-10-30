@@ -1,0 +1,193 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "510c3167-274e-48e8-bc0f-ce517acc7f9d")
+	(paper "A4")
+	(lib_symbols)
+	(text "TODO:\n- Find footprint for cell\n- Pick LEDs and footprints\n- Export used footprints to repo"
+		(exclude_from_sim no)
+		(at 155.702 137.922 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left)
+		)
+		(uuid "6237d123-6f5f-4cd1-8786-0dd86205df51")
+	)
+	(wire
+		(pts
+			(xy 146.05 72.39) (xy 146.05 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9caec7a8-36a2-4876-9c9b-76f248b4c2dc")
+	)
+	(sheet
+		(at 49.53 50.8)
+		(size 55.88 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "31fe11dc-c780-463d-b2c9-9ca8c0ac4f4e")
+		(property "Sheetname" "power_supply"
+			(at 49.53 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 49.53 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UV_badge"
+				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 50.8)
+		(size 57.15 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ab3e44bd-2a8b-4d5e-afa5-e8b03dc741f3")
+		(property "Sheetname" "uv_sensor_amp"
+			(at 114.8584 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uv_sensor_amp.kicad_sch"
+			(at 173.3046 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "signal_amp_out" output
+			(at 146.05 72.39 270)
+			(uuid "61ed8317-32e3-478c-9120-bd0efd4ff806")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "UV_badge"
+				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 83.82)
+		(size 57.15 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c13bce2c-c64f-4126-ad9a-b7d870433f01")
+		(property "Sheetname" "led_controller"
+			(at 115.57 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_controller.kicad_sch"
+			(at 115.57 103.4546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "signal_amp_in" input
+			(at 146.05 83.82 90)
+			(uuid "ed82c40f-58ba-4f4b-801e-8e901aaf994d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "UV_badge"
+				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
