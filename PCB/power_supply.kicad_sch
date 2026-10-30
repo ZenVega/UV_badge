@@ -2235,7 +2235,11 @@
 				(justify right)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "lcsc_footprints:C964829_BAT-SMD_MY-2032-05-R"
+=======
+		(property "Footprint" "Battery:Battery_Panasonic_CR2032-HFN_Horizontal_CircularHoles"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 105.41 77.216 90)
 			(hide yes)
 			(show_name no)
@@ -2757,7 +2761,11 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "lcsc_footprints:C318938_SW-SMD_L6_0-W3_3-LS8_0_TS-1101-C-W"
+=======
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 133.35 48.26 0)
 			(hide yes)
 			(show_name no)

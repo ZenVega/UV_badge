@@ -2770,7 +2770,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b32d5c2-6c03-4b4f-9e4d-8fade1136978")
+<<<<<<< HEAD
 		(property "Reference" "D3"
+=======
+		(property "Reference" "D4"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 135.5725 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2790,7 +2794,11 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
+=======
+		(property "Footprint" "Library_local:LED_1206_3216Metric_ReverseMount"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 137.16 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2812,8 +2820,14 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Description" "yellow"
 			(at 137.16 87.63 0)
+=======
+		(property "Description" "Light emitting diode"
+			(at 137.16 87.63 0)
+			(hide yes)
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2842,7 +2856,11 @@
 		(instances
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
+<<<<<<< HEAD
 					(reference "D3")
+=======
+					(reference "D4")
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 					(unit 1)
 				)
 			)
@@ -3312,7 +3330,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1da9d07e-6007-495c-bb9b-837e38c7f2b3")
+<<<<<<< HEAD
 		(property "Reference" "D5"
+=======
+		(property "Reference" "D6"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 135.5725 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3332,7 +3354,11 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
+=======
+		(property "Footprint" "Library_local:LED_1206_3216Metric_ReverseMount"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 137.16 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3354,8 +3380,14 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Description" "orange"
 			(at 137.16 115.57 0)
+=======
+		(property "Description" "Light emitting diode"
+			(at 137.16 115.57 0)
+			(hide yes)
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3384,7 +3416,11 @@
 		(instances
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
+<<<<<<< HEAD
 					(reference "D5")
+=======
+					(reference "D6")
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 					(unit 1)
 				)
 			)
@@ -3402,7 +3438,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e76f244-be43-426a-87b2-18ea4c7fc95a")
+<<<<<<< HEAD
 		(property "Reference" "D2"
+=======
+		(property "Reference" "D3"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 135.5725 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3422,7 +3462,11 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
+=======
+		(property "Footprint" "Library_local:LED_1206_3216Metric_ReverseMount"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 137.16 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3444,8 +3488,14 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Description" "white"
 			(at 137.16 72.39 0)
+=======
+		(property "Description" "Light emitting diode"
+			(at 137.16 72.39 0)
+			(hide yes)
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3474,7 +3524,11 @@
 		(instances
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
+<<<<<<< HEAD
 					(reference "D2")
+=======
+					(reference "D3")
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 					(unit 1)
 				)
 			)
@@ -3492,7 +3546,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41b75923-643e-4a45-ad83-237e58a0be0d")
+<<<<<<< HEAD
 		(property "Reference" "D1"
+=======
+		(property "Reference" "D2"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 135.5725 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3512,7 +3570,11 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
+=======
+		(property "Footprint" "Library_local:LED_1206_3216Metric_ReverseMount"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 137.16 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3534,8 +3596,14 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Description" "white"
 			(at 137.16 59.69 0)
+=======
+		(property "Description" "Light emitting diode"
+			(at 137.16 59.69 0)
+			(hide yes)
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3564,7 +3632,11 @@
 		(instances
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
+<<<<<<< HEAD
 					(reference "D1")
+=======
+					(reference "D2")
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 					(unit 1)
 				)
 			)
@@ -3582,7 +3654,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4577ff47-af9a-4be4-b944-2d11efeb9dd4")
+<<<<<<< HEAD
 		(property "Reference" "D4"
+=======
+		(property "Reference" "D5"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 135.5725 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3602,7 +3678,11 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
+=======
+		(property "Footprint" "Library_local:LED_1206_3216Metric_ReverseMount"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 137.16 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3624,8 +3704,14 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Description" "yellow"
 			(at 137.16 100.33 0)
+=======
+		(property "Description" "Light emitting diode"
+			(at 137.16 100.33 0)
+			(hide yes)
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3654,7 +3740,11 @@
 		(instances
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
+<<<<<<< HEAD
 					(reference "D4")
+=======
+					(reference "D5")
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 					(unit 1)
 				)
 			)
@@ -4595,7 +4685,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71b03aed-364b-47eb-8756-ee5477a27934")
+<<<<<<< HEAD
 		(property "Reference" "D6"
+=======
+		(property "Reference" "D7"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 135.5725 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4615,7 +4709,11 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
+=======
+		(property "Footprint" "Library_local:LED_1206_3216Metric_ReverseMount"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 137.16 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4637,8 +4735,14 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Description" "orange"
 			(at 137.16 128.27 0)
+=======
+		(property "Description" "Light emitting diode"
+			(at 137.16 128.27 0)
+			(hide yes)
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4667,7 +4771,11 @@
 		(instances
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
+<<<<<<< HEAD
 					(reference "D6")
+=======
+					(reference "D7")
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 					(unit 1)
 				)
 			)
@@ -5160,7 +5268,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab424109-c612-4b9e-8431-97aa2ec0e6f6")
+<<<<<<< HEAD
 		(property "Reference" "D8"
+=======
+		(property "Reference" "D9"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 135.5725 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5180,7 +5292,11 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
+=======
+		(property "Footprint" "Library_local:LED_1206_3216Metric_ReverseMount"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 137.16 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -5202,8 +5318,14 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Description" "red"
 			(at 137.16 156.21 0)
+=======
+		(property "Description" "Light emitting diode"
+			(at 137.16 156.21 0)
+			(hide yes)
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5232,7 +5354,11 @@
 		(instances
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
+<<<<<<< HEAD
 					(reference "D8")
+=======
+					(reference "D9")
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 					(unit 1)
 				)
 			)
@@ -5935,7 +6061,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc2fb834-6333-486a-8da2-6dd7b685d302")
+<<<<<<< HEAD
 		(property "Reference" "D7"
+=======
+		(property "Reference" "D8"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 135.5725 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5955,7 +6085,11 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
+=======
+		(property "Footprint" "Library_local:LED_1206_3216Metric_ReverseMount"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 137.16 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -5977,8 +6111,14 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Description" "red"
 			(at 137.16 143.51 0)
+=======
+		(property "Description" "Light emitting diode"
+			(at 137.16 143.51 0)
+			(hide yes)
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6007,7 +6147,11 @@
 		(instances
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
+<<<<<<< HEAD
 					(reference "D7")
+=======
+					(reference "D8")
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 					(unit 1)
 				)
 			)

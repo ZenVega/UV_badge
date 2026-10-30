@@ -522,6 +522,7 @@
   },
   "pcbnew": {
     "last_paths": {
+<<<<<<< HEAD
       "gencad": "",
       "idf": "",
       "netlist": "",
@@ -530,6 +531,13 @@
       "specctra_dsn": "",
       "step": "",
       "svg": "",
+=======
+      "idf": "",
+      "netlist": "",
+      "plot": "./gerbers",
+      "specctra_dsn": "",
+      "step": "",
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -664,7 +672,11 @@
         "uuid": "510c3167-274e-48e8-bc0f-ce517acc7f9d"
       }
     ],
+<<<<<<< HEAD
     "used_designators": "BT1,#PWR1-21,L1,D1-12,NCP1,C1-4,U1-3,SW1-4,TP1-2,R1-18,JP1,RV1-3",
+=======
+    "used_designators": "D1-12,C1-4,U1-3,NCP1,SW1-4,L1,#PWR1-21,BT1,TP1-2,R1-18,JP1,RV1-3",
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
     "variants": []
   },
   "sheets": [

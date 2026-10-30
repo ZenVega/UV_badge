@@ -1413,7 +1413,11 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fa2a04b-2f92-463e-801f-17ee80711eea")
+<<<<<<< HEAD
 		(property "Reference" "D9"
+=======
+		(property "Reference" "D1"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 107.442 99.822 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1477,7 +1481,11 @@
 		(instances
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/ab3e44bd-2a8b-4d5e-afa5-e8b03dc741f3"
+<<<<<<< HEAD
 					(reference "D9")
+=======
+					(reference "D1")
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 					(unit 1)
 				)
 			)

@@ -1,6 +1,10 @@
 {
   "board": {
+<<<<<<< HEAD
     "active_layer": 1,
+=======
+    "active_layer": 25,
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -49,7 +53,13 @@
       "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
+<<<<<<< HEAD
       "shapes"
+=======
+      "shapes",
+      "board_outline_area",
+      "ly_points"
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
     ],
     "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
@@ -89,6 +99,7 @@
       8,
       9
     ],
+<<<<<<< HEAD
     "col_widths": [
       186,
       171,
@@ -101,6 +112,9 @@
       112,
       112
     ],
+=======
+    "col_widths": [],
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
@@ -112,7 +126,11 @@
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
+<<<<<<< HEAD
     "sorting_column": 0
+=======
+    "sorting_column": -1
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
   },
   "open_jobsets": [],
   "project": {

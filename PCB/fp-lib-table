@@ -2,5 +2,8 @@
 	(version 7)
 	(lib (name "Library_local") (type "KiCad") (uri "${KIPRJMOD}/Library.pretty") (options "") (descr ""))
 	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/Library.pretty/Library.pretty") (options "") (descr ""))
+<<<<<<< HEAD
 	(lib (name "lcsc_footprints") (type "KiCad") (uri "${KIPRJMOD}/libs/lcsc/footprints.pretty") (options "") (descr "LCSC Manager imported footprints"))
+=======
+>>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 )
