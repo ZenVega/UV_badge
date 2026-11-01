@@ -18,7 +18,7 @@
         (font (size 1.27 1.27))
       )
     )
-    (property "Footprint" "lcsc_footprints:C318938_SW-SMD_L6_0-W3_3-LS8_0_TS-1101-C-W"
+    (property "Footprint" "UV_badge:C318938_SW-SMD_L6_0-W3_3-LS8_0_TS-1101-C-W"
       (at 0 -10.16 0)
       (effects
         (font (size 1.27 1.27))
@@ -118,7 +118,7 @@
         (font (size 1.27 1.27))
       )
     )
-    (property "Footprint" "lcsc_footprints:C964829_BAT-SMD_MY-2032-05-R"
+    (property "Footprint" "UV_badge:C964829_BAT-SMD_MY-2032-05-R"
       (at 0 -10.16 0)
       (effects
         (font (size 1.27 1.27))
@@ -232,7 +232,7 @@
         (font (size 1.27 1.27))
       )
     )
-    (property "Footprint" "lcsc_footprints:C598311_LED-SMD_3P-L3_0-W2_0_KPA-3010QBC-D"
+    (property "Footprint" "UV_badge:C598311_LED-SMD_3P-L3_0-W2_0_KPA-3010QBC-D"
       (at 0 -10.16 0)
       (effects
         (font (size 1.27 1.27))

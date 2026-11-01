@@ -588,6 +588,161 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1436,6 +1591,18 @@
 		(uuid "18b28c14-eca3-44d7-a06c-e9a2b2629aed")
 	)
 	(junction
+		(at 64.77 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bc4be95-cfcf-4836-a06a-3144213a4f71")
+	)
+	(junction
+		(at 229.87 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fd5ce41-4912-4e2c-a602-794d7f0f88fa")
+	)
+	(junction
 		(at 77.47 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1579,6 +1746,12 @@
 		(color 0 0 0 0)
 		(uuid "ed254b8f-5a01-4db2-8f44-a5a7e11506e9")
 	)
+	(junction
+		(at 229.87 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef1a3190-2446-483f-af28-3be8bffad33e")
+	)
 	(wire
 		(pts
 			(xy 71.12 163.83) (xy 71.12 168.91)
@@ -1711,6 +1884,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 105.41) (xy 218.44 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f151851-e8a2-4129-9d1b-6cecbfb442b9")
+	)
+	(wire
+		(pts
 			(xy 64.77 140.97) (xy 64.77 142.24)
 		)
 		(stroke
@@ -1811,6 +1994,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 92.71) (xy 243.84 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376849da-f74c-4671-b192-d0372b8eed61")
+	)
+	(wire
+		(pts
 			(xy 218.44 102.87) (xy 218.44 105.41)
 		)
 		(stroke
@@ -1888,6 +2081,16 @@
 			(type default)
 		)
 		(uuid "456a88b4-21d1-4e90-b08e-22d751752c32")
+	)
+	(wire
+		(pts
+			(xy 50.8 45.72) (xy 50.8 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "469bc73f-d99f-455d-8264-a5e2ec102265")
 	)
 	(wire
 		(pts
@@ -1991,6 +2194,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 86.36) (xy 229.87 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7472ec74-71c6-4481-9f63-d1a68cb1a787")
+	)
+	(wire
+		(pts
 			(xy 95.25 97.79) (xy 64.77 97.79)
 		)
 		(stroke
@@ -2001,6 +2214,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 105.41) (xy 229.87 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7739fbe7-cc70-493d-a085-964f667ab31a")
+	)
+	(wire
+		(pts
 			(xy 85.09 57.15) (xy 71.12 57.15)
 		)
 		(stroke
@@ -2008,6 +2231,16 @@
 			(type default)
 		)
 		(uuid "78bb9791-d605-43ad-8195-a46ab6c95f64")
+	)
+	(wire
+		(pts
+			(xy 50.8 33.02) (xy 64.77 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78fa3038-7ad4-4701-9d8d-062f3f613e85")
 	)
 	(wire
 		(pts
@@ -2058,6 +2291,16 @@
 			(type default)
 		)
 		(uuid "7e37301e-cba0-403b-9a5f-8f4a3352c49b")
+	)
+	(wire
+		(pts
+			(xy 243.84 100.33) (xy 243.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8e36a9-19a2-4b7d-8507-2c9807181077")
 	)
 	(wire
 		(pts
@@ -2131,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 31.75) (xy 64.77 35.56)
+			(xy 64.77 31.75) (xy 64.77 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2198,6 +2441,16 @@
 			(type default)
 		)
 		(uuid "b16fa195-8246-4ee0-92df-66d6e2304539")
+	)
+	(wire
+		(pts
+			(xy 205.74 86.36) (xy 218.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b27b4c-7c85-4984-b0be-c42164462a93")
 	)
 	(wire
 		(pts
@@ -2421,6 +2674,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 100.33) (xy 205.74 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a0219c-d3f4-4fb0-ac19-a7fbb08c4741")
+	)
+	(wire
+		(pts
+			(xy 64.77 33.02) (xy 64.77 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f115a3-3217-4a4a-b257-9da5d363fa52")
+	)
+	(wire
+		(pts
 			(xy 100.33 171.45) (xy 85.09 171.45)
 		)
 		(stroke
@@ -2438,6 +2711,16 @@
 			(type default)
 		)
 		(uuid "e4e1a966-defa-4304-b20e-36a3a78bd809")
+	)
+	(wire
+		(pts
+			(xy 205.74 92.71) (xy 205.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5583e62-48d3-4eed-b401-e1fbeaa55b9c")
 	)
 	(wire
 		(pts
@@ -2488,6 +2771,16 @@
 			(type default)
 		)
 		(uuid "f88ab2ee-0413-4e30-8fe0-cbf2bdf73596")
+	)
+	(wire
+		(pts
+			(xy 50.8 38.1) (xy 50.8 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f977c778-d467-4661-afd6-c11c90171c94")
 	)
 	(wire
 		(pts
@@ -2542,7 +2835,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "150"
 			(at 121.92 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2622,7 +2915,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "150"
 			(at 121.92 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2770,11 +3063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b32d5c2-6c03-4b4f-9e4d-8fade1136978")
-<<<<<<< HEAD
 		(property "Reference" "D3"
-=======
-		(property "Reference" "D4"
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 135.5725 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2794,11 +3083,7 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
-=======
-		(property "Footprint" "Library_local:LED_1206_3216Metric_ReverseMount"
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 137.16 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2820,14 +3105,8 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "Description" "yellow"
 			(at 137.16 87.63 0)
-=======
-		(property "Description" "Light emitting diode"
-			(at 137.16 87.63 0)
-			(hide yes)
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2856,11 +3135,7 @@
 		(instances
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
-<<<<<<< HEAD
 					(reference "D3")
-=======
-					(reference "D4")
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 					(unit 1)
 				)
 			)
@@ -3330,11 +3605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1da9d07e-6007-495c-bb9b-837e38c7f2b3")
-<<<<<<< HEAD
 		(property "Reference" "D5"
-=======
-		(property "Reference" "D6"
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 135.5725 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3354,11 +3625,7 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
-=======
-		(property "Footprint" "Library_local:LED_1206_3216Metric_ReverseMount"
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 137.16 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3380,14 +3647,8 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "Description" "orange"
 			(at 137.16 115.57 0)
-=======
-		(property "Description" "Light emitting diode"
-			(at 137.16 115.57 0)
-			(hide yes)
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3416,11 +3677,85 @@
 		(instances
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
-<<<<<<< HEAD
 					(reference "D5")
-=======
-					(reference "D6")
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3df9f9d3-650d-47b9-9a3c-087ea644de37")
+		(property "Reference" "#PWR022"
+			(at 50.8 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad22399d-3493-42b4-b5c6-873bbc140976")
+		)
+		(instances
+			(project "UV_badge"
+				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3438,11 +3773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e76f244-be43-426a-87b2-18ea4c7fc95a")
-<<<<<<< HEAD
 		(property "Reference" "D2"
-=======
-		(property "Reference" "D3"
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 135.5725 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3462,11 +3793,7 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
-=======
-		(property "Footprint" "Library_local:LED_1206_3216Metric_ReverseMount"
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 137.16 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3488,14 +3815,8 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "Description" "white"
 			(at 137.16 72.39 0)
-=======
-		(property "Description" "Light emitting diode"
-			(at 137.16 72.39 0)
-			(hide yes)
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3524,11 +3845,7 @@
 		(instances
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
-<<<<<<< HEAD
 					(reference "D2")
-=======
-					(reference "D3")
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 					(unit 1)
 				)
 			)
@@ -3546,11 +3863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41b75923-643e-4a45-ad83-237e58a0be0d")
-<<<<<<< HEAD
 		(property "Reference" "D1"
-=======
-		(property "Reference" "D2"
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 135.5725 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3570,11 +3883,7 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
-=======
-		(property "Footprint" "Library_local:LED_1206_3216Metric_ReverseMount"
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 137.16 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3596,14 +3905,8 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "Description" "white"
 			(at 137.16 59.69 0)
-=======
-		(property "Description" "Light emitting diode"
-			(at 137.16 59.69 0)
-			(hide yes)
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3632,11 +3935,7 @@
 		(instances
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
-<<<<<<< HEAD
 					(reference "D1")
-=======
-					(reference "D2")
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 					(unit 1)
 				)
 			)
@@ -3654,11 +3953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4577ff47-af9a-4be4-b944-2d11efeb9dd4")
-<<<<<<< HEAD
 		(property "Reference" "D4"
-=======
-		(property "Reference" "D5"
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 135.5725 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3678,11 +3973,7 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
-=======
-		(property "Footprint" "Library_local:LED_1206_3216Metric_ReverseMount"
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 137.16 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3704,14 +3995,8 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "Description" "yellow"
 			(at 137.16 100.33 0)
-=======
-		(property "Description" "Light emitting diode"
-			(at 137.16 100.33 0)
-			(hide yes)
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3740,11 +4025,7 @@
 		(instances
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
-<<<<<<< HEAD
 					(reference "D4")
-=======
-					(reference "D5")
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 					(unit 1)
 				)
 			)
@@ -4060,6 +4341,88 @@
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
 					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 243.84 96.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "527c589a-1b3c-47ff-8ab8-495f85f0c8ce")
+		(property "Reference" "C5"
+			(at 247.65 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 247.65 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.8748 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1dd44af1-b883-4a63-bce4-d8da92aaeb49")
+		)
+		(pin "1"
+			(uuid "b57e321f-4a8f-45fe-8952-4f7506332ced")
+		)
+		(instances
+			(project "UV_badge"
+				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4409,7 +4772,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "150"
 			(at 121.92 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4489,7 +4852,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "150"
 			(at 121.92 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4685,11 +5048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71b03aed-364b-47eb-8756-ee5477a27934")
-<<<<<<< HEAD
 		(property "Reference" "D6"
-=======
-		(property "Reference" "D7"
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 135.5725 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4709,11 +5068,7 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
-=======
-		(property "Footprint" "Library_local:LED_1206_3216Metric_ReverseMount"
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 137.16 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4735,14 +5090,8 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "Description" "orange"
 			(at 137.16 128.27 0)
-=======
-		(property "Description" "Light emitting diode"
-			(at 137.16 128.27 0)
-			(hide yes)
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4771,11 +5120,7 @@
 		(instances
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
-<<<<<<< HEAD
 					(reference "D6")
-=======
-					(reference "D7")
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 					(unit 1)
 				)
 			)
@@ -4960,7 +5305,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "150"
 			(at 121.92 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5268,11 +5613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab424109-c612-4b9e-8431-97aa2ec0e6f6")
-<<<<<<< HEAD
 		(property "Reference" "D8"
-=======
-		(property "Reference" "D9"
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 135.5725 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5292,11 +5633,7 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
-=======
-		(property "Footprint" "Library_local:LED_1206_3216Metric_ReverseMount"
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 137.16 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -5318,14 +5655,8 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "Description" "red"
 			(at 137.16 156.21 0)
-=======
-		(property "Description" "Light emitting diode"
-			(at 137.16 156.21 0)
-			(hide yes)
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5354,11 +5685,7 @@
 		(instances
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
-<<<<<<< HEAD
 					(reference "D8")
-=======
-					(reference "D9")
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 					(unit 1)
 				)
 			)
@@ -5791,7 +6118,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "150"
 			(at 121.92 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6061,11 +6388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc2fb834-6333-486a-8da2-6dd7b685d302")
-<<<<<<< HEAD
 		(property "Reference" "D7"
-=======
-		(property "Reference" "D8"
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 135.5725 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6085,11 +6408,7 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "Footprint" "LED_SMD:LED_Kingbright_KPA-3010_3x2x1mm"
-=======
-		(property "Footprint" "Library_local:LED_1206_3216Metric_ReverseMount"
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(at 137.16 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6111,14 +6430,8 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "Description" "red"
 			(at 137.16 143.51 0)
-=======
-		(property "Description" "Light emitting diode"
-			(at 137.16 143.51 0)
-			(hide yes)
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6147,11 +6460,7 @@
 		(instances
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
-<<<<<<< HEAD
 					(reference "D7")
-=======
-					(reference "D8")
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
 					(unit 1)
 				)
 			)
@@ -6261,7 +6570,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "150"
 			(at 121.92 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6314,6 +6623,88 @@
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 50.8 41.91 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d92eebeb-c109-41d2-a323-2ea24b38be6a")
+		(property "Reference" "C7"
+			(at 54.61 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 54.61 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.8348 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 50.8 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "45f6450e-dfe0-49e7-bf31-4f542228bc00")
+		)
+		(pin "1"
+			(uuid "6ba89e49-d3c6-4864-b3cb-ba93a4fc2160")
+		)
+		(instances
+			(project "UV_badge"
+				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6620,7 +7011,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "150"
 			(at 121.92 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6673,6 +7064,88 @@
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 205.74 96.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efec46d9-2508-4f19-b46d-726be89d7b6a")
+		(property "Reference" "C6"
+			(at 209.55 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 209.55 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.7748 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 205.74 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "67d1074a-a758-49d7-9e09-47ab894a94d1")
+		)
+		(pin "1"
+			(uuid "f489a96f-59ea-4bac-a923-74ed62e40ae2")
+		)
+		(instances
+			(project "UV_badge"
+				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/c13bce2c-c64f-4126-ad9a-b7d870433f01"
+					(reference "C6")
 					(unit 1)
 				)
 			)

@@ -33,7 +33,7 @@
 	(fp_line (start 10.70 4.00) (end 3.50 10.45) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 3.50 10.45) (end -3.50 10.45) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -3.50 10.45) (end -10.70 4.00) (layer F.CrtYd) (width 0.05))
-	(model "${KIPRJMOD}/libs/lcsc/3dmodels/C964829.wrl"
+	(model "${KIPRJMOD}/libs/UV_badge.3dshapes/C964829.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

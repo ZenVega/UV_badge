@@ -483,6 +483,7 @@
       "wire_dangling": "error"
     }
   },
+  "legacy": [],
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
@@ -522,22 +523,11 @@
   },
   "pcbnew": {
     "last_paths": {
-<<<<<<< HEAD
-      "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../",
-      "pos_files": "",
+      "plot": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
-=======
-      "idf": "",
-      "netlist": "",
-      "plot": "./gerbers",
-      "specctra_dsn": "",
-      "step": "",
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -646,14 +636,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -668,21 +658,17 @@
     "top_level_sheets": [
       {
         "filename": "UV_badge.kicad_sch",
-        "name": "Root",
+        "name": "UV_badge",
         "uuid": "510c3167-274e-48e8-bc0f-ce517acc7f9d"
       }
     ],
-<<<<<<< HEAD
-    "used_designators": "BT1,#PWR1-21,L1,D1-12,NCP1,C1-4,U1-3,SW1-4,TP1-2,R1-18,JP1,RV1-3",
-=======
-    "used_designators": "D1-12,C1-4,U1-3,NCP1,SW1-4,L1,#PWR1-21,BT1,TP1-2,R1-18,JP1,RV1-3",
->>>>>>> 9bddb299a47a76f75668fb5a9451ca7b9e0e4ab0
+    "used_designators": "C5-7",
     "variants": []
   },
   "sheets": [
     [
       "510c3167-274e-48e8-bc0f-ce517acc7f9d",
-      "Root"
+      "UV_badge"
     ],
     [
       "31fe11dc-c780-463d-b2c9-9ca8c0ac4f4e",
