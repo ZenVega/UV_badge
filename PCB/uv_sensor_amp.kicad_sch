@@ -1073,12 +1073,6 @@
 		(uuid "b28a1eb0-6e73-43f5-b5d2-b81a3d6efd9a")
 	)
 	(junction
-		(at 156.21 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "246b5211-1ebb-4f43-8136-31058a75227e")
-	)
-	(junction
 		(at 135.89 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1127,16 +1121,6 @@
 			(type default)
 		)
 		(uuid "015d372d-d1a9-4c6b-9f51-a0e2084f1d64")
-	)
-	(wire
-		(pts
-			(xy 156.21 74.93) (xy 171.45 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01fb58ec-e2c6-4449-af4a-1ff9f0f43fcf")
 	)
 	(wire
 		(pts
@@ -1300,26 +1284,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 92.71) (xy 156.21 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6d79931-5dd1-4c71-89b3-d8544c3ba309")
-	)
-	(wire
-		(pts
-			(xy 156.21 85.09) (xy 156.21 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8bf2787-2acc-4f3b-8a8a-6ad279bc93d9")
-	)
-	(wire
-		(pts
 			(xy 113.03 97.79) (xy 113.03 96.52)
 		)
 		(stroke
@@ -1350,7 +1314,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 74.93) (xy 156.21 74.93)
+			(xy 135.89 74.93) (xy 171.45 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1530,88 +1494,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 156.21 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a643f2b-c05d-4559-8096-ce5e66ccf39b")
-		(property "Reference" "C4"
-			(at 160.02 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 160.02 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.1752 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 156.21 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2a500ea7-9ae5-431c-bceb-835e5564bb67")
-		)
-		(pin "1"
-			(uuid "04fe37d1-7111-40d1-8625-ddef88692274")
-		)
-		(instances
-			(project "UV_badge"
-				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/ab3e44bd-2a8b-4d5e-afa5-e8b03dc741f3"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 113.03 110.49 0)
 		(unit 1)
@@ -1684,84 +1566,6 @@
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/ab3e44bd-2a8b-4d5e-afa5-e8b03dc741f3"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.21 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "780389d1-c046-4f66-a00e-899a48cc4f90")
-		(property "Reference" "#PWR03"
-			(at 156.21 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ac45071-f861-4870-bb9f-f1d4d9d5f6f7")
-		)
-		(instances
-			(project "UV_badge"
-				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/ab3e44bd-2a8b-4d5e-afa5-e8b03dc741f3"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
