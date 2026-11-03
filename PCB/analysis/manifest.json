@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "project": "UV_badge.kicad_pro",
+  "current": "2026-11-03_1432",
+  "runs": {
+    "2026-11-03_1432": {
+      "source_hashes": {
+        "UV_badge.kicad_sch": "sha256:6872ac0d64ded807ffdbe9d3670a69dbcd6b5e5840170ebd741c0660471dbaed",
+        "UV_badge.kicad_pcb": "sha256:121fb2a2e3977d30126445cad6e902c088a1c60e60bf3c57ac17104aca029cd8",
+        "schematic.json": "sha256:20f2bfe2051431022707954598ff954f0d31bdf2f54fc39b49be4c1e7c73f013",
+        "pcb.json": "sha256:bbe5a4b170e1f04f761744be132bce2baee5724f48bee5326a0ec3747edc07c3"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "emc": "emc.json",
+        "thermal": "thermal.json",
+        "gerber": "gerber.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py UV_badge.kicad_sch"
+      },
+      "generated": "2026-11-03T14:32:33+01:00",
+      "pinned": false
+    }
+  }
+}

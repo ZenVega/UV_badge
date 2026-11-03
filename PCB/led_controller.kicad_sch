@@ -2835,7 +2835,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1.5k"
 			(at 121.92 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2915,7 +2915,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1.5k"
 			(at 121.92 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3073,7 +3073,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "KPA-3010SECK"
 			(at 135.5725 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3105,7 +3105,7 @@
 				)
 			)
 		)
-		(property "Description" "yellow"
+		(property "Description" "orange - https://www.tme.eu/de/details/kpa-3010seck/led-dioden-smd-bunt/kingbright-electronic/"
 			(at 137.16 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3615,7 +3615,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "KPA-3010SECK"
 			(at 135.5725 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3647,7 +3647,7 @@
 				)
 			)
 		)
-		(property "Description" "orange"
+		(property "Description" "orange - https://www.tme.eu/de/details/kpa-3010seck/led-dioden-smd-bunt/kingbright-electronic/"
 			(at 137.16 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3783,7 +3783,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "KPA-3010SYCK"
 			(at 135.5725 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3815,7 +3815,7 @@
 				)
 			)
 		)
-		(property "Description" "white"
+		(property "Description" "yellow - https://www.tme.eu/de/details/kpa-3010syck/led-dioden-smd-bunt/kingbright-electronic/"
 			(at 137.16 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3873,7 +3873,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "KPA-3010SYCK"
 			(at 135.5725 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3905,7 +3905,7 @@
 				)
 			)
 		)
-		(property "Description" "white"
+		(property "Description" "yellow - https://www.tme.eu/de/details/kpa-3010syck/led-dioden-smd-bunt/kingbright-electronic/"
 			(at 137.16 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3963,7 +3963,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "KPA-3010SECK"
 			(at 135.5725 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3995,7 +3995,7 @@
 				)
 			)
 		)
-		(property "Description" "yellow"
+		(property "Description" "orange - https://www.tme.eu/de/details/kpa-3010seck/led-dioden-smd-bunt/kingbright-electronic/"
 			(at 137.16 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4772,7 +4772,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1.5k"
 			(at 121.92 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4852,7 +4852,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1.5k"
 			(at 121.92 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5058,7 +5058,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "KPA-3010SURCK"
 			(at 135.5725 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5090,7 +5090,7 @@
 				)
 			)
 		)
-		(property "Description" "orange"
+		(property "Description" "red - https://www.tme.eu/de/details/kpa-3010surck/led-dioden-smd-bunt/kingbright-electronic/"
 			(at 137.16 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5305,7 +5305,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1.5k"
 			(at 121.92 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5623,7 +5623,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "KPA-3010SURCK"
 			(at 135.5725 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5655,7 +5655,7 @@
 				)
 			)
 		)
-		(property "Description" "red"
+		(property "Description" "red - https://www.tme.eu/de/details/kpa-3010surck/led-dioden-smd-bunt/kingbright-electronic/"
 			(at 137.16 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6118,7 +6118,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1.5k"
 			(at 121.92 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6398,7 +6398,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "KPA-3010SURCK"
 			(at 135.5725 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6430,7 +6430,7 @@
 				)
 			)
 		)
-		(property "Description" "red"
+		(property "Description" "red - https://www.tme.eu/de/details/kpa-3010surck/led-dioden-smd-bunt/kingbright-electronic/"
 			(at 137.16 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6570,7 +6570,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1.5k"
 			(at 121.92 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7011,7 +7011,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1.5k"
 			(at 121.92 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
