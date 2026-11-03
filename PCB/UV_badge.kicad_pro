@@ -662,7 +662,7 @@
         "uuid": "510c3167-274e-48e8-bc0f-ce517acc7f9d"
       }
     ],
-    "used_designators": "C5-7",
+    "used_designators": "U1-4,SW1-2,RV1-2,TP1-2,R1-20,L1,BT1,#PWR1-17,D1-10,C1-7",
     "variants": []
   },
   "sheets": [
