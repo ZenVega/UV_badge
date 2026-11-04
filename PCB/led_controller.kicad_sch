@@ -3107,6 +3107,7 @@
 		)
 		(property "Description" "orange - https://www.tme.eu/de/details/kpa-3010seck/led-dioden-smd-bunt/kingbright-electronic/"
 			(at 137.16 87.63 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3649,6 +3650,7 @@
 		)
 		(property "Description" "orange - https://www.tme.eu/de/details/kpa-3010seck/led-dioden-smd-bunt/kingbright-electronic/"
 			(at 137.16 115.57 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3817,6 +3819,7 @@
 		)
 		(property "Description" "yellow - https://www.tme.eu/de/details/kpa-3010syck/led-dioden-smd-bunt/kingbright-electronic/"
 			(at 137.16 72.39 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3907,6 +3910,7 @@
 		)
 		(property "Description" "yellow - https://www.tme.eu/de/details/kpa-3010syck/led-dioden-smd-bunt/kingbright-electronic/"
 			(at 137.16 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3997,6 +4001,7 @@
 		)
 		(property "Description" "orange - https://www.tme.eu/de/details/kpa-3010seck/led-dioden-smd-bunt/kingbright-electronic/"
 			(at 137.16 100.33 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4380,7 +4385,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 242.8748 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5092,6 +5097,7 @@
 		)
 		(property "Description" "red - https://www.tme.eu/de/details/kpa-3010surck/led-dioden-smd-bunt/kingbright-electronic/"
 			(at 137.16 128.27 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5657,6 +5663,7 @@
 		)
 		(property "Description" "red - https://www.tme.eu/de/details/kpa-3010surck/led-dioden-smd-bunt/kingbright-electronic/"
 			(at 137.16 156.21 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6432,6 +6439,7 @@
 		)
 		(property "Description" "red - https://www.tme.eu/de/details/kpa-3010surck/led-dioden-smd-bunt/kingbright-electronic/"
 			(at 137.16 143.51 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6662,7 +6670,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 49.8348 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7103,7 +7111,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 204.7748 92.71 0)
 			(hide yes)
 			(show_name no)

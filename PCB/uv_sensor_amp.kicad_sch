@@ -1505,7 +1505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "684e853a-b74f-46a3-9e92-9a2daedd49dc")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR23"
 			(at 113.03 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -1565,7 +1565,7 @@
 		(instances
 			(project "UV_badge"
 				(path "/510c3167-274e-48e8-bc0f-ce517acc7f9d/ab3e44bd-2a8b-4d5e-afa5-e8b03dc741f3"
-					(reference "#PWR08")
+					(reference "#PWR23")
 					(unit 1)
 				)
 			)
