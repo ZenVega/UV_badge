@@ -1,0 +1,224 @@
+(footprint "GUVA-S12SD"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "GUVA-S12SD UV photodiode, 3.5x2.8mm SMD; land pattern per Roithner/GenUV datasheet 07.02.2011 p.1 (pads 1.3x2.3, gap 1.7, overall 4.3). Pad 1 = cathode (chamfered corner)")
+	(tags "UV photodiode GUVA S12SD GenUV")
+	(property "Reference" "REF**"
+		(at 0 -2.45 0)
+		(layer "F.SilkS")
+		(uuid "fa752700-b19c-48cb-9141-bc8a37e0faae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GUVA-S12SD"
+		(at 0 2.45 0)
+		(layer "F.Fab")
+		(uuid "40dd616c-bfe3-4859-a5b6-e14294e221f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3807fa72-bbb7-4203-bedf-a5220971f8b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.191)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "289d6443-99ce-428b-a46d-7f9f1a6b2cb5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.191)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.45 -1.55)
+		(end -2.45 1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed2bccb2-dd39-4799-8922-f748b2b3f06a")
+	)
+	(fp_line
+		(start -2.45 -1.55)
+		(end 1.75 -1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9aa1069-b2f3-4fe7-8692-08ecb4653b74")
+	)
+	(fp_line
+		(start -2.45 1.55)
+		(end 1.75 1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbd9040d-1fa4-482a-8ddd-b47d1a4d1808")
+	)
+	(fp_line
+		(start -2.7 -1.8)
+		(end 2.4 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "82a99174-c7dd-4491-877e-80590ee67987")
+	)
+	(fp_line
+		(start 2.4 -1.8)
+		(end 2.4 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "61900e7a-0ab9-45eb-af5d-12267ba54a11")
+	)
+	(fp_line
+		(start 2.4 1.8)
+		(end -2.7 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "208544a6-3dc2-4a3e-8c03-3d0abade967f")
+	)
+	(fp_line
+		(start -2.7 1.8)
+		(end -2.7 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5cb3280-642f-4ff4-8ab4-909517057a80")
+	)
+	(fp_line
+		(start -1.75 -0.7)
+		(end -1.05 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "475aee75-082f-4dd7-ac9f-61e70212ca6a")
+	)
+	(fp_line
+		(start -1.05 -1.4)
+		(end 1.75 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5cb1798-de43-4183-a617-0fc75e3cca4b")
+	)
+	(fp_line
+		(start 1.75 -1.4)
+		(end 1.75 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dc53f1e2-36ad-4726-bfc1-f7e04c6b7f27")
+	)
+	(fp_line
+		(start 1.75 1.4)
+		(end -1.75 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1da7b163-9174-4112-a7a0-f91dce92f524")
+	)
+	(fp_line
+		(start -1.75 1.4)
+		(end -1.75 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a44f1e85-c17f-4895-9fca-8d5bb5c39f84")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "63b9ec89-cc91-484b-a4bd-e23acdd4fb53")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8f5b7e27-6b9f-4288-a183-4e5bae41c7a9")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 0)
+		(size 1.3 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8b839d44-3f20-42aa-b4e6-0b76f2c9fa9d")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 1.3 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fdc36845-2dac-44d7-9b6d-180a61405198")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_PLCC_2835.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

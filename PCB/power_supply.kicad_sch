@@ -2024,36 +2024,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 73.66) (xy 116.84 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5c7fd79-f0c9-4012-b422-3ecb0067e73e")
-	)
-	(label "VIN_SW"
-		(at 116.84 71.12 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7fec5488-3722-46a2-bdde-db9db28cd96b")
-	)
-	(label "VIN_SW"
-		(at 149.86 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5246d269-1aca-4bb6-a019-38908a9de35b")
-	)
-	(wire
-		(pts
 			(xy 128.27 53.34) (xy 124.46 53.34)
 		)
 		(stroke
@@ -2101,16 +2071,6 @@
 			(type default)
 		)
 		(uuid "0ee88acc-91c4-4275-befd-95fa1a724406")
-	)
-	(wire
-		(pts
-			(xy 124.46 68.58) (xy 116.84 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f512710-f72b-453f-8a0a-c2221137bd80")
 	)
 	(wire
 		(pts
@@ -2304,7 +2264,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 68.58) (xy 116.84 68.58)
+			(xy 105.41 68.58) (xy 124.46 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2364,6 +2324,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 73.66) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c7fd79-f0c9-4012-b422-3ecb0067e73e")
+	)
+	(wire
+		(pts
 			(xy 138.43 53.34) (xy 142.24 53.34)
 		)
 		(stroke
@@ -2371,6 +2341,26 @@
 			(type default)
 		)
 		(uuid "fc23e815-ddc7-4a4f-bc73-5170ab0c69e6")
+	)
+	(label "VIN_SW"
+		(at 149.86 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5246d269-1aca-4bb6-a019-38908a9de35b")
+	)
+	(label "VIN_SW"
+		(at 116.84 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fec5488-3722-46a2-bdde-db9db28cd96b")
 	)
 	(symbol
 		(lib_id "power:GND")

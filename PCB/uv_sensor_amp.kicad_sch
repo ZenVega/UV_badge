@@ -1445,7 +1445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "UV_badge:GUVA-S12SD"
 			(at 113.03 101.6 0)
 			(hide yes)
 			(show_name no)
