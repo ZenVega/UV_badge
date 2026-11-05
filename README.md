@@ -5,8 +5,9 @@
 A wearable badge that measures UV light and shows the level on a bar of
 8 LEDs (red, orange, yellow). It runs on a CR2032 coin cell.
 
-Badge artwork and design by [bingmachine](https://www.instagram.com/bingmachine/),
-partner on this project.
+This project is a cooperation with **bingmachine**
+([Instagram](https://www.instagram.com/bingmachine/) ·
+[GitHub](https://github.com/zikaden)), who designed the badge and its artwork.
 
 ## How it works
 
@@ -80,7 +81,8 @@ regenerate. The batch size is set by `BATCH` in the script.
 
 ## Credits
 
-- Design and artwork: [bingmachine](https://www.instagram.com/bingmachine/) (partner)
+- Design and artwork: bingmachine, partner on this project
+  ([Instagram](https://www.instagram.com/bingmachine/) · [GitHub](https://github.com/zikaden))
 
 ## License
 
