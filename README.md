@@ -1,7 +1,12 @@
 # UV_badge
 
+<p align="center"><img src="images/pcb_rendering.png" alt="UV'ill be toast! badge artwork" width="400"></p>
+
 A wearable badge that measures UV light and shows the level on a bar of
 8 LEDs (red, orange, yellow). It runs on a CR2032 coin cell.
+
+Badge artwork and design by [bingmachine](https://www.instagram.com/bingmachine/),
+partner on this project.
 
 ## How it works
 
@@ -23,6 +28,7 @@ The schematic (`PCB/UV_badge.kicad_sch`) has three sub-sheets:
 | `PCB/libs/`              | Local symbols, footprints and 3D models               |
 | `PCB/gerbers/`           | Fabrication output                                    |
 | `svg/`                   | Board artwork (copper, mask, silkscreen, edge cut)    |
+| `images/`                | Pictures for this README                              |
 | `datasheets/`            | Component datasheets                                  |
 | `scripts/make_bom.py`    | Generates the bill of materials                       |
 | `BOM.md`                 | Bill of materials                                     |
@@ -71,6 +77,10 @@ regenerate. The batch size is set by `BATCH` in the script.
 | U2                              | 1   | 50      | LMV321        |                    | SOT-23-5_HandSoldering                      |                                                                        | https://www.tme.eu/de/details/lmv321aidbvr/smd-operationsverstaerker/texas-instruments/            |
 | U4                              | 1   | 50      | MT3608        |                    | SOT-23-6_Handsoldering                      | 1.2 MHz 2 A step-up converter, adjustable output, FB = 0.6 V, SOT-23-6 | https://de.aliexpress.com/item/32843361735.html                                                    |
 <!-- BOM:END -->
+
+## Credits
+
+- Design and artwork: [bingmachine](https://www.instagram.com/bingmachine/) (partner)
 
 ## License
 
