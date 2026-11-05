@@ -1794,6 +1794,28 @@
 				)
 			)
 		)
+		(property "MPN" "CRCW08056M80FKTABC"
+			(at 129.54 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "link" "https://www.tme.eu/de/details/crcw08056m80fktabc/smd-widerstaende/vishay/"
+			(at 129.54 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f71487ea-3ca0-4c83-b591-665189523c4e")
 		)
@@ -1866,6 +1888,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 140.97 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0805C102J5GACTU"
+			(at 140.97 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "link" "https://www.tme.eu/de/details/c0805c102j5gac/kondensatoren-mlcc-smd/kemet/c0805c102j5gactu/"
 			(at 140.97 88.9 0)
 			(hide yes)
 			(show_name no)

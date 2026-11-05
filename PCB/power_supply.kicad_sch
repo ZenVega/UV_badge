@@ -2788,6 +2788,28 @@
 				)
 			)
 		)
+		(property "MPN" "PTS125SM43-2 LFS"
+			(at 133.35 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "link" "https://www.tme.eu/de/details/pts125sm43-2lfs/mikroschalter-tact/c-k/pts125sm43-2-lfs/"
+			(at 133.35 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "877196a3-1894-46db-933b-6f973f59c98b")
 		)
@@ -2859,6 +2881,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 146.05 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LMK212 BJ106KG-T"
+			(at 146.05 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "link" "https://www.tme.eu/de/details/lmk212bj106kg-t/kondensatoren-mlcc-smd/taiyo-yuden/lmk212-bj106kg-t/"
 			(at 146.05 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3184,6 +3228,28 @@
 				)
 			)
 		)
+		(property "MPN" "LMK212 BJ106KG-T"
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "link" "https://www.tme.eu/de/details/lmk212bj106kg-t/kondensatoren-mlcc-smd/taiyo-yuden/lmk212-bj106kg-t/"
+			(at 135.89 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "495659fa-127b-475b-9dbe-ee1f9de634da")
 		)
@@ -3255,6 +3321,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 156.21 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805S8F3002T5E"
+			(at 156.21 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "link" "https://www.tme.eu/de/details/smd0805-30k-1%25/smd-widerstaende/royalohm/0805s8f3002t5e/"
 			(at 156.21 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3677,6 +3765,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0805FR-07220KL"
+			(at 152.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "link" "https://www.tme.eu/de/details/rc0805fr-07220k/smd-widerstaende/yageo/rc0805fr-07220kl/"
+			(at 152.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0bab852b-6d79-4261-93dd-394cac2f5569")
 		)
@@ -3748,6 +3858,17 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 133.35 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "link" "https://de.aliexpress.com/item/4001317902663.html"
+			(at 133.35 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
